@@ -10,7 +10,7 @@ export default function Profile() {
       </p>
       <div className="w-[70vw] mx-auto flex flex-col md:flex-row justify-between items-center gap-15">
         <div
-          className="mx-auto p-6 bg-[#FFFFFF] dark:bg-[#1E293B] text-[#1A1A1A] dark:text-[#faf6ed] rounded-lg md:basis-1/2"
+          className=" p-6 bg-[#FFFFFF] dark:bg-[#1E293B] text-[#1A1A1A] dark:text-[#faf6ed] rounded-lg md:basis-1/2"
           style={{ boxShadow: "8px 8px 0px #669BBC80" }}
         >
           <h2 className="text-[#669BBC] dark:text-[#8ECAE6] text-2xl mb-10">
