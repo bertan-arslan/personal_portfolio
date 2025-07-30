@@ -18,7 +18,7 @@
         "emphasis": false
       },
       {
-        "text": "pratamaiosi@gmail.com",
+        "text": "bertanars97@gmail.com",
         "emphasis": true,
         "underline": true,
         "isEmail": true
@@ -26,8 +26,9 @@
     ]
   },
 
-  "skills":{
-    "skillsTitle": "Skills"},
+  "skills": {
+    "skillsTitle": "Skills"
+  },
 
   "profile": {
     "basicInfoTitle": "Basic Information",
@@ -43,8 +44,8 @@
 
     "aboutMeTitle": "About me",
     "aboutMeParagraphs": [
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia",
-      "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      "I'm a passionate full-stack developer with a background in urban planning. I enjoy building modern, scalable web applications that combine technical precision with thoughtful design.",
+      "After transitioning into software development, I’ve focused on creating responsive UIs, managing complex data flows, and delivering smooth user experiences. I’m always eager to learn, collaborate, and turn ideas into functional products."
     ]
   },
 
@@ -68,5 +69,10 @@
       "projectUrl": "https://pizzastore-one.vercel.app/",
       "image": "/highlightedProjects/pizzaStore.png"
     }
-  ]
+  ],
+
+  "footer": {
+    "message": "Let’s work together on your next product.",
+    "contactMe": "Contact Me"
+  }
 }

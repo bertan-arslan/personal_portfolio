@@ -5,7 +5,7 @@ export default function Projects() {
 
   return (
     <section className="bg-[#E6F0FA] dark:bg-[#1A2A3A]">
-      <div className="w-[75vw] mx-auto py-20">
+      <div className="w-[75vw] mx-auto py-20 px-10">
         <p className="text-4xl font-medium text-center mb-10 text-[#1A1A1A] dark:text-[#faf6ed]">
           {highligthedProjectsTitle}
         </p>
@@ -13,7 +13,7 @@ export default function Projects() {
           {highligthedProjects.map((projects, i) => (
             <div
               key={i}
-              className={`relative w-full md:w-[50vw] h-full md:h-auto flex flex-col gap-2 rounded-xl ${projects.bgColor} text-[#1A1A1A] text-justify dark:text-[#E5E7EB] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl`}
+              className={`relative md:w-[50vw] md:h-auto flex flex-col gap-2 rounded-xl ${projects.bgColor} text-[#1A1A1A] text-justify dark:text-[#E5E7EB] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl`}
             >
               <div className="mb-5 pt-10 px-10">
                 <p className="text-3xl mb-5">{projects.title}</p>
@@ -52,7 +52,7 @@ export default function Projects() {
                 <img
                   src={projects.image}
                   alt="project"
-                  className="rounded-b-xl"
+                  className="w-full mt-10 rounded-b-xl border-t-10 border-[#E6F0FA] dark:border-[#1A2A3A]"
                 />
               </div>
             </div>

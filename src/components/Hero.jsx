@@ -34,18 +34,29 @@ export default function Hero() {
           </div>
 
           <div className="absolute -left-5 top-28 bg-[#669BBC] dark:bg-[#8ECAE6] w-[148px] h-[31px] rounded"></div>
-
           <div>
-            <div className="flex mb-4 text-[#1A1A1A] dark:text-[#faf6ed] gap-5">
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="text-3xl text-[#669BBC] dark:text-[#8ECAE6]"
-              />
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="text-3xl text-[#669BBC] dark:text-[#8ECAE6]"
-              />
-            </div>
+            <nav className="flex mb-4 text-[#1A1A1A] dark:text-[#faf6ed]">
+              <a
+                href="https://www.linkedin.com/in/bertan-arslan-7024a8166/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-3xl text-[#669BBC] dark:text-[#8ECAE6]"
+                />
+              </a>
+              <a
+                href="https://github.com/bertan-arslan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="text-3xl text-[#669BBC] dark:text-[#8ECAE6]"
+                />
+              </a>
+            </nav>
 
             <div className="text-lg text-[#1A1A1A] dark:text-[#faf6ed] flex flex-wrap gap-1">
               {description.map((part, i) => {
