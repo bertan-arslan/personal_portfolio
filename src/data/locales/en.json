@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "greeting": "Hi! 👋",
+    "intro": "I’m Bertan. I’m a",
+    "typewriterWords": [
+      " full-stack developer.",
+      " frontend developer.",
+      " backend developer.",
+      " planner."
+    ],
+    "description": [
+      { "text": "Currently ", "emphasis": false },
+      { "text": "Freelancing", "emphasis": true },
+      { "text": " for ", "emphasis": false },
+      { "text": "UX, UI, & Web Design", "emphasis": true },
+      {
+        "text": " Project. Invite me to join your team ->",
+        "emphasis": false
+      },
+      {
+        "text": "pratamaiosi@gmail.com",
+        "emphasis": true,
+        "underline": true,
+        "isEmail": true
+      }
+    ]
+  },
+
+  "skills":{
+    "skillsTitle": "Skills"},
+
+  "profile": {
+    "basicInfoTitle": "Basic Information",
+    "basicInfoItems": [
+      { "label": "Birth Date", "value": "19.07.1997" },
+      { "label": "Location", "value": "Izmir" },
+      {
+        "label": "Education",
+        "value": "BSc- Gazi Unv. City and Regional Planning, 2020\n\nMSc- Izmir Institute of Technology City Planning, 2023"
+      },
+      { "label": "Desired Role", "value": "Full-Stack Developer" }
+    ],
+
+    "aboutMeTitle": "About me",
+    "aboutMeParagraphs": [
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia",
+      "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+    ]
+  },
+
+  "highligthedProjectsTitle": "Projects",
+  "highligthedProjects": [
+    {
+      "title": "E-Commerce Website",
+      "summary": "A feature-rich and responsive e-commerce platform built with modern web technologies.Users can explore product categories, view item details, manage their cart, and complete a purchase flow.The project emphasizes clean component structure, responsive design, and smooth user experience.",
+      "techStack": ["React", "Redux", "Tailwind CSS", "Axios", "React Router"],
+      "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
+      "githubLink": "https://github.com/bertan-arslan/e-commerce",
+      "projectUrl": "https://bandagestore-ten.vercel.app/",
+      "image": "/highlightedProjects/ecommerce.png"
+    },
+    {
+      "title": "Pizza Store",
+      "summary": "This is a sample e-commerce application where users can browse pizza products, view detailed information, add items to the cart, and place an order. The project is designed mobile-first and fully responsive.",
+      "techStack": ["React", "React Router DOM v5", "Axios", "Reqres.in API"],
+      "bgColor": "bg-[#a3c4f3] dark:bg-[#0d1a2b]",
+      "githubLink": "https://github.com/bertan-arslan/fsweb-s8-challenge-pizza",
+      "projectUrl": "https://pizzastore-one.vercel.app/",
+      "image": "/highlightedProjects/pizzaStore.png"
+    }
+  ]
+}

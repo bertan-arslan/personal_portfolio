@@ -1,0 +1,12 @@
+{
+  "basicInfoTitle": "Temel Bilgiler",
+  "basicInfoItems": [
+    { "label": "Doğum tarihi", "value": "24.03.1996" },
+    { "label": "İkamet Şehri", "value": "Ankara" },
+    {
+      "label": "Eğitim Durumu",
+      "value": "Hacettepe Ünv.  Biyoloji\nLisans, 2016"
+    },
+    { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+  ]
+}
