@@ -9,13 +9,15 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import { DarkModeProvider } from "./context/DarkModeContext";
 import { LanguageProvider } from "./context/LanguageContext";
+import Decorations from "./components/Decorations";
 
 function App() {
   return (
     <LanguageProvider>
       <DarkModeProvider>
         <Router>
-          <div className="App ">
+          <div className="relative overflow-hidden">
+            <Decorations />
             <Navbar />
             <Switch>
               <Route exact path="/">

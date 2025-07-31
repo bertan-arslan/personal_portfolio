@@ -22,7 +22,7 @@ export default function Skills() {
 
   return (
     <section className="bg-[#E6F0FA] dark:bg-[#1A2A3A]">
-      <div className="py-20 w-[75vw] mx-auto flex flex-col gap-15">
+      <div className="py-25 w-[75vw] mx-auto flex flex-col gap-15">
         <div className="text-5xl font-medium text-center text-[#1A1A1A] dark:text-[#faf6ed]">
           {skillsTitle}
         </div>

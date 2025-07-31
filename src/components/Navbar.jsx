@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#faf6ed] dark:bg-[#003049]">
-      <div className="w-[75vw] mx-auto flex justify-end items-center gap-5 px-5 py-5  text-[#1A1A1A] dark:text-white">
+      <div className="relative z-5 w-[75vw] mx-auto flex justify-end items-center gap-5 px-5 py-5  text-[#1A1A1A] dark:text-white">
         <button onClick={toggleDarkMode} className="flex items-center gap-2">
           <div className="w-10 h-5 bg-[#669BBC] dark:bg-[#6a8b9b] rounded-full flex items-center px-1 cursor-pointer">
             <div

@@ -1,7 +1,7 @@
 {
   "navBar": {
-    "darkMode": "DARK MODE",
-    "lightMode": "LIGHT MODE",
+    "darkMode": "DARK",
+    "lightMode": "LIGHT",
     "toContact": "Contact",
     "toHome": "Home"
   },
@@ -90,7 +90,7 @@
   },
   "footer": {
     "message": "Let’s work together on your next product.",
-    "contactMe": "Contact Me",
+    "contactMe": "Contact",
     "rights": "All rights reserved.",
     "build": "Built with React, Tailwind CSS & Love."
   },

@@ -11,26 +11,32 @@ export default function Hero() {
 
   return (
     <section className="bg-[#faf6ed] dark:bg-[#003049] overflow-hidden">
-      <div className="relative py-20 flex flex-col items-center justify-center w-[75vw] mx-auto gap-5 md:flex-row md:gap-30">
+      <div className="relative z-5 pt-10 pb-25 flex flex-col items-center justify-center w-[75vw] mx-auto gap-5 md:flex-row md:gap-30">
         <div className="relative flex flex-col gap-10 md:w-[50%]">
           <div>
-            <p className="relative my-5 text-3xl text-[#1A1A1A] dark:text-[#faf6ed]">
+            <p className="relative z-5 my-5 text-3xl text-[#1A1A1A] dark:text-[#faf6ed]">
               {greeting}
             </p>
-            <p className="relative font-medium text-[42px] z-10 text-[#1A1A1A] dark:text-[#faf6ed]">
+            <p className=" relative z-5 text-[42px] font-medium text-[#1A1A1A] dark:text-[#faf6ed]">
               {intro}
-              <span className="text-[#669BBC] dark:text-[#8ECAE6]">
-                <Typewriter
-                  words={typewriterWords}
-                  loop={0}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={100}
-                  deleteSpeed={100}
-                  delaySpeed={1500}
-                />
-              </span>
-              <br />
+            </p>
+
+            <p
+              className="relative z-5 text-[42px] font-medium text-[#669BBC] dark:text-[#8ECAE6] inline-block"
+              style={{ minWidth: "300px" }}
+            >
+              <Typewriter
+                words={typewriterWords}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={100}
+                deleteSpeed={100}
+                delaySpeed={1500}
+              />
+            </p>
+
+            <p className="text-[42px] font-medium text-[#1A1A1A] dark:text-[#faf6ed]">
               {cta}
             </p>
           </div>

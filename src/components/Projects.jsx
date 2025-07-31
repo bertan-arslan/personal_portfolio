@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <section className="bg-[#E6F0FA] dark:bg-[#1A2A3A]">
-      <div className="w-[75vw] mx-auto py-20 px-10">
+      <div className="w-screen md:w-[75vw] mx-auto py-20 px-10">
         <p className="text-4xl font-medium text-center mb-10 text-[#1A1A1A] dark:text-[#faf6ed]">
           {highligthedProjectsTitle}
         </p>
