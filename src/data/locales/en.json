@@ -1,4 +1,8 @@
 {
+  "navBar":{
+    "darkMode":"DARK MODE",
+    "lightMode": "LIGHT MODE"
+  },
   "hero": {
     "greeting": "Hi! 👋",
     "intro": "I’m Bertan. I’m a",
@@ -8,6 +12,7 @@
       " backend developer.",
       " planner."
     ],
+    "cta":"I can craft solid and scalable frontend products. Let’s meet!",
     "description": [
       { "text": "Currently ", "emphasis": false },
       { "text": "Freelancing", "emphasis": true },
@@ -31,6 +36,7 @@
   },
 
   "profile": {
+    "title": "Profile",
     "basicInfoTitle": "Basic Information",
     "basicInfoItems": [
       { "label": "Birth Date", "value": "19.07.1997" },
@@ -44,35 +50,56 @@
 
     "aboutMeTitle": "About me",
     "aboutMeParagraphs": [
-      "I'm a passionate full-stack developer with a background in urban planning. I enjoy building modern, scalable web applications that combine technical precision with thoughtful design.",
+      "I'm constantly working on improving myself with the goal of becoming a better Full Stack Developer. I graduated from Amasya University with a degree in Urban Design and Landscape Architecture in 2023. After my graduation, I received 960 hours of FrontEnd and BackEnd training through 78 different projects at Workintech.",
       "After transitioning into software development, I’ve focused on creating responsive UIs, managing complex data flows, and delivering smooth user experiences. I’m always eager to learn, collaborate, and turn ideas into functional products."
     ]
   },
 
-  "highligthedProjectsTitle": "Projects",
-  "highligthedProjects": [
-    {
-      "title": "E-Commerce Website",
-      "summary": "A feature-rich and responsive e-commerce platform built with modern web technologies.Users can explore product categories, view item details, manage their cart, and complete a purchase flow.The project emphasizes clean component structure, responsive design, and smooth user experience.",
-      "techStack": ["React", "Redux", "Tailwind CSS", "Axios", "React Router"],
-      "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
-      "githubLink": "https://github.com/bertan-arslan/e-commerce",
-      "projectUrl": "https://bandagestore-ten.vercel.app/",
-      "image": "/highlightedProjects/ecommerce.png"
-    },
-    {
-      "title": "Pizza Store",
-      "summary": "This is a sample e-commerce application where users can browse pizza products, view detailed information, add items to the cart, and place an order. The project is designed mobile-first and fully responsive.",
-      "techStack": ["React", "React Router DOM v5", "Axios", "Reqres.in API"],
-      "bgColor": "bg-[#a3c4f3] dark:bg-[#0d1a2b]",
-      "githubLink": "https://github.com/bertan-arslan/fsweb-s8-challenge-pizza",
-      "projectUrl": "https://pizzastore-one.vercel.app/",
-      "image": "/highlightedProjects/pizzaStore.png"
-    }
-  ],
+  "projects" : {
+    "highligthedProjectsTitle": "Projects",
+    "highligthedProjects": [
+      {
+        "title": "E-Commerce Website",
+        "summary": "A feature-rich and responsive e-commerce platform built with modern web technologies.Users can explore product categories, view item details, manage their cart, and complete a purchase flow.The project emphasizes clean component structure, responsive design, and smooth user experience.",
+        "techStack": [
+          "React",
+          "Redux",
+          "Tailwind CSS",
+          "Axios",
+          "React Router"
+        ],
+        "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
+        "githubLink": "https://github.com/bertan-arslan/e-commerce",
+        "projectUrl": "https://bandagestore-ten.vercel.app/",
+        "image": "/highlightedProjects/ecommerce.png"
+      },
+      {
+        "title": "Pizza Store",
+        "summary": "This is a sample e-commerce application where users can browse pizza products, view detailed information, add items to the cart, and place an order. The project is designed mobile-first and fully responsive.",
+        "techStack": ["React", "React Router DOM v5", "Axios", "Reqres.in API"],
+        "bgColor": "bg-[#a3c4f3] dark:bg-[#0d1a2b]",
+        "githubLink": "https://github.com/bertan-arslan/fsweb-s8-challenge-pizza",
+        "projectUrl": "https://pizzastore-one.vercel.app/",
+        "image": "/highlightedProjects/pizzaStore.png"
+      }
+    ],
+    "github":"View on Github",
+    "app":"Go to app"
+  }
+  ,
 
   "footer": {
     "message": "Let’s work together on your next product.",
-    "contactMe": "Contact Me"
+    "contactMe": "Contact Me",
+    "rights": "All rights reserved.",
+    "build": "Built with React, Tailwind CSS & Love."
+  },
+  "contact":{
+    "title":"Contact Me",
+    "namePlaceHolder":"Your Name",
+    "emailPlaceHolder":"Your Email",
+    "messafePlaceHolder":"Your Message",
+    "buttonText":"Send Message"
+
   }
 }

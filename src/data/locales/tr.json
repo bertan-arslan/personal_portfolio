@@ -1,12 +1,102 @@
 {
-  "basicInfoTitle": "Temel Bilgiler",
-  "basicInfoItems": [
-    { "label": "Doğum tarihi", "value": "24.03.1996" },
-    { "label": "İkamet Şehri", "value": "Ankara" },
-    {
-      "label": "Eğitim Durumu",
-      "value": "Hacettepe Ünv.  Biyoloji\nLisans, 2016"
-    },
-    { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
-  ]
+  "navBar": {
+    "darkMode": "KARANLIK",
+    "lightMode": "AYDINLIK"
+  },
+  "hero": {
+    "greeting": "Merhaba! 👋",
+    "intro": "Ben Bertan. Ben",
+    "typewriterWords": [
+      " full-stack geliştiricisiyim.",
+      " frontend geliştiricisiyim.",
+      " backend geliştiricisiyim.",
+      " plancıyım."
+    ],
+    "cta": "Kullanışlı ve geliştirilebilir arayüzler tasarlıyorum. Tanışmaya ne dersin?",
+    "description": [
+      { "text": "Şu anda ", "emphasis": false },
+      { "text": "Freelance olarak çalışıyorum", "emphasis": true },
+      { "text": " - ", "emphasis": false },
+      { "text": "UX, UI ve Web Tasarımı", "emphasis": true },
+      {
+        "text": " projelerinde ekibinize katılmamı ister misiniz? ->",
+        "emphasis": false
+      },
+      {
+        "text": "bertanars97@gmail.com",
+        "emphasis": true,
+        "underline": true,
+        "isEmail": true
+      }
+    ]
+  },
+
+  "skills": {
+    "skillsTitle": "Beceriler"
+  },
+
+  "profile": {
+    "title": "Profil",
+    "basicInfoTitle": "Temel Bilgiler",
+    "basicInfoItems": [
+      { "label": "Doğum Tarihi", "value": "19.07.1997" },
+      { "label": "Konum", "value": "İzmir" },
+      {
+        "label": "Eğitim",
+        "value": "Lisans - Gazi Üniv. Şehir ve Bölge Planlama, 2020\n\nYüksek Lisans - İzmir Yüksek Teknoloji Enstitüsü Şehir Planlama, 2023"
+      },
+      { "label": "Hedeflenen Rol", "value": "Full-Stack Geliştirici" }
+    ],
+
+    "aboutMeTitle": "Hakkımda",
+    "aboutMeParagraphs": [
+      "Alanında iyi bir Full Stack Developer olma hedefiyle kendimi sürekli geliştiriyorum. 2020 yılında İzmir Teknoloji Enstitüsü'nden Şehir Planlama Yüksek Lisans derecesiyle mezun oldum. Mezun olduktan sonra Workintech'te 78 farklı projede 960 saatlik FrontEnd ve BackEnd eğitimi aldım.",
+      "Yazılım geliştirme alanına geçtikten sonra, duyarlı arayüzler oluşturma, karmaşık veri akışlarını yönetme ve sorunsuz kullanıcı deneyimleri sunmaya odaklandım. Her zaman öğrenmeye, iş birliğine ve fikirleri işlevsel ürünlere dönüştürmeye istekliyim."
+    ]
+  },
+
+  "projects": {
+    "highligthedProjectsTitle": "Projeler",
+    "highligthedProjects": [
+      {
+        "title": "E-Ticaret Sitesi",
+        "summary": "Modern web teknolojileriyle oluşturulmuş, özellik açısından zengin ve duyarlı bir e-ticaret platformu. Kullanıcılar ürün kategorilerini keşfedebilir, ürün detaylarını görüntüleyebilir, sepetlerini yönetebilir ve satın alma işlemini tamamlayabilir. Proje, temiz bileşen yapısı, duyarlı tasarım ve sorunsuz kullanıcı deneyimi vurgusu taşır.",
+        "techStack": [
+          "React",
+          "Redux",
+          "Tailwind CSS",
+          "Axios",
+          "React Router"
+        ],
+        "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
+        "githubLink": "https://github.com/bertan-arslan/e-commerce",
+        "projectUrl": "https://bandagestore-ten.vercel.app/",
+        "image": "/highlightedProjects/ecommerce.png"
+      },
+      {
+        "title": "Pizza Dükkanı",
+        "summary": "Kullanıcıların pizza ürünlerine göz atabileceği, detaylı bilgi görebileceği, ürünleri sepete ekleyip sipariş verebileceği örnek bir e-ticaret uygulamasıdır. Proje, mobil öncelikli ve tamamen duyarlı tasarımla geliştirilmiştir.",
+        "techStack": ["React", "React Router DOM v5", "Axios", "Reqres.in API"],
+        "bgColor": "bg-[#a3c4f3] dark:bg-[#0d1a2b]",
+        "githubLink": "https://github.com/bertan-arslan/fsweb-s8-challenge-pizza",
+        "projectUrl": "https://pizzastore-one.vercel.app/",
+        "image": "/highlightedProjects/pizzaStore.png"
+      }
+    ],
+    "github":"Github'da gör",
+    "app":"Uygulamaya git"
+  },
+  "footer": {
+    "message": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+    "contactMe": "İletişime Geçin",
+    "rights": "Tüm hakları saklıdır.",
+    "build": "React, Tailwind CSS ve sevgiyle yapıldı."
+  },
+  "contact": {
+    "title": "Benimle İletişime Geçin",
+    "namePlaceHolder": "Adınız",
+    "emailPlaceHolder": "E-posta Adresiniz",
+    "messafePlaceHolder": "Mesajınız",
+    "buttonText": "Mesaj Gönder"
+  }
 }

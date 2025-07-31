@@ -1,10 +1,10 @@
-
-import en from "../data/locales/en.json";
-import { Link } from "react-router-dom/";
+import { Link } from "react-router-dom";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Footer() {
-  const { message, contactMe } = en.footer;
- 
+  const { translations } = useLanguage();
+  const { message, contactMe, rights, build } = translations.footer;
+
   return (
     <footer className="bg-[#E6F0FA] dark:bg-[#1A2A3A]">
       <div className="w-[75vw] mx-auto py-10 flex flex-col gap-5 justify-center md:flex-row md:gap-5">
@@ -39,6 +39,12 @@ export default function Footer() {
             {contactMe}
           </Link>
         </div>
+      </div>
+      <div className="w-full mt-auto py-3 border-t border-[#669BBC] dark:border-[#8ECAE6] text-center text-[#1A1A1A] dark:text-[#FAF6ED] text-sm">
+        <p>
+          © {new Date().getFullYear()} Bertan Arslan. {rights}
+        </p>
+        <p className="mt-2">{build}</p>
       </div>
     </footer>
   );

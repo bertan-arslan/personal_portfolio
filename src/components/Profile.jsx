@@ -1,12 +1,13 @@
-import en from "../data/locales/en.json";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Profile() {
-  const { basicInfoTitle, basicInfoItems, aboutMeTitle, aboutMeParagraphs } =
-    en.profile;
+  const { translations } = useLanguage();
+  const { title, basicInfoTitle, basicInfoItems, aboutMeTitle, aboutMeParagraphs } =
+    translations.profile;
   return (
     <section className="bg-[#faf6ed] dark:bg-[#003049] py-25">
       <p className="font-medium text-4xl text-center mb-10 text-[#669BBC] dark:text-[#8ECAE6]">
-        Profile
+        {title}
       </p>
       <div className="w-[70vw] mx-auto flex flex-col md:flex-row justify-between items-center gap-15">
         <div

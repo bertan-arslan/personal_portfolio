@@ -3,10 +3,11 @@ import Autoplay from "embla-carousel-autoplay";
 import skills from "../data/skills";
 import { useRef } from "react";
 
-import en from "../data/locales/en.json";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Skills() {
-  const { skillsTitle } = en.skills;
+  const { translations } = useLanguage();
+  const { skillsTitle } = translations.skills;
 
   const autoplay = useRef(
     Autoplay(

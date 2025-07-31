@@ -1,7 +1,9 @@
-import en from "../data/locales/en.json";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Projects() {
-  const { highligthedProjectsTitle, highligthedProjects } = en;
+  const { translations } = useLanguage();
+  const { highligthedProjectsTitle, highligthedProjects, github, app } =
+    translations.projects;
 
   return (
     <section className="bg-[#E6F0FA] dark:bg-[#1A2A3A]">
@@ -13,7 +15,7 @@ export default function Projects() {
           {highligthedProjects.map((projects, i) => (
             <div
               key={i}
-              className={`relative md:w-[50vw] md:h-auto flex flex-col gap-2 rounded-xl ${projects.bgColor} text-[#1A1A1A] text-justify dark:text-[#E5E7EB] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl`}
+              className={`relative md:w-[50vw] md:h-auto flex flex-col gap-2 rounded-xl ${projects.bgColor} text-[#1A1A1A] dark:text-[#E5E7EB] transition-transform duration-300 transform hover:scale-105 hover:shadow-xl`}
             >
               <div className="mb-5 pt-10 px-10">
                 <p className="text-3xl mb-5">{projects.title}</p>
@@ -36,7 +38,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className=" hover:font-normal"
                 >
-                  View on Github
+                  {github}
                 </a>
                 <a
                   href={projects.projectUrl}
@@ -44,7 +46,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className=" hover:font-normal"
                 >
-                  Go to app {"->"}{" "}
+                  {app} {"->"}{" "}
                 </a>
               </nav>
 

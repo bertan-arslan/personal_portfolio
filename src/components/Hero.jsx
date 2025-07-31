@@ -2,10 +2,12 @@ import { Typewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import en from "../data/locales/en.json";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Hero() {
-  const { greeting, intro, typewriterWords, description } = en.hero;
+  const { translations } = useLanguage();
+  const { greeting, intro, typewriterWords, cta, description } =
+    translations.hero;
 
   return (
     <section className="bg-[#faf6ed] dark:bg-[#003049] overflow-hidden">
@@ -28,8 +30,8 @@ export default function Hero() {
                   delaySpeed={1500}
                 />
               </span>
-              <br />I can craft solid and scalable frontend products. Let’s
-              meet!
+              <br />
+              {cta}
             </p>
           </div>
 
