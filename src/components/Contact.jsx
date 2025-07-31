@@ -16,6 +16,8 @@ export default function Contact() {
     messageRequired,
     emailError,
     messageError,
+    toastCrash,
+    toastSuccess
   } = translations.contact;
 
   const { rights, build } = translations.footer;
@@ -30,7 +32,7 @@ export default function Contact() {
   const onSubmit = async (data) => {
     try {
       await axios.post(
-        "https://formsubmit.co/ajax/bertanars97@gmail.com",
+        "https://formsubmit.co/ajax/7a9f7f5123ef079896132a69cedf1ce2",
         data,
         {
           headers: {
@@ -40,10 +42,10 @@ export default function Contact() {
         }
       );
 
-      toast.success("Mesajınız başarıyla gönderildi 🎉");
+      toast.success(toastCrash);
       reset();
     } catch (err) {
-      toast.error("Bir hata oluştu, lütfen tekrar deneyin.");
+      toast.error(toastSuccess);
       console.error(err);
     }
   };

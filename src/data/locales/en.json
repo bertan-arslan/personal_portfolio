@@ -104,6 +104,8 @@
     "emailRequired": "Please enter your email",
     "messageRequired": "Please enter your message.",
     "emailError": "Invalid email format.",
-    "messageError": "Message must be at least 10 characters."
+    "messageError": "Message must be at least 10 characters.",
+    "toastSuccess":"Your message has been sent successfully. 🎉",
+    "toastCrash":"An error occurred, please try again."
   }
 }

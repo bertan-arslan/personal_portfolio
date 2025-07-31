@@ -104,6 +104,8 @@
     "emailRequired": "Lütfen e-posta adresinizi giriniz",
     "messageRequired": "Lütfen mesajınızı yazınız.",
     "emailError": "Geçerli bir e-posta adresi girmelisiniz.",
-    "messageError": "Mesajınız en az 10 karakter içermeli."
+    "messageError": "Mesajınız en az 10 karakter içermeli.",
+    "toastSuccess": "Mesajınız başarıyla gönderildi 🎉",
+    "toastCrash": "Bir hata oluştu, lütfen tekrar deneyin."
   }
 }
