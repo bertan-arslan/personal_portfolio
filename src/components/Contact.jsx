@@ -42,10 +42,10 @@ export default function Contact() {
         }
       );
 
-      toast.success(toastCrash);
+      toast.success(toastSuccess);
       reset();
     } catch (err) {
-      toast.error(toastSuccess);
+      toast.error(toastCrash);
       console.error(err);
     }
   };
