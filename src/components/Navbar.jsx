@@ -1,3 +1,5 @@
+import { Link, useLocation } from "react-router-dom";
+
 import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -5,7 +7,10 @@ export default function Navbar() {
   const { language, toggleLanguage, translations } = useLanguage();
   const { isDark, toggleDarkMode } = useDarkMode();
 
-  const { darkMode, lightMode } = translations.navBar;
+  const { darkMode, lightMode, toHome, toContact } = translations.navBar;
+
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   return (
     <nav className="bg-[#faf6ed] dark:bg-[#003049]">
@@ -40,6 +45,12 @@ export default function Navbar() {
             EN
           </button>
         </div>
+        <Link
+          to={currentPath === "/" ? "/contact" : "/"}
+          className="font-bold text-[#669BBC] dark:text-[#8ECAE6]"
+        >
+          {currentPath === "/" ? toContact :  toHome}
+        </Link>
       </div>
     </nav>
   );

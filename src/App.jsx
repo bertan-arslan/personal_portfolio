@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
@@ -30,6 +31,7 @@ function App() {
             </Switch>
           </div>
         </Router>
+        <ToastContainer position="bottom-right" autoClose={3000} />
       </DarkModeProvider>
     </LanguageProvider>
   );

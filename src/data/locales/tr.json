@@ -1,7 +1,9 @@
 {
   "navBar": {
     "darkMode": "KARANLIK",
-    "lightMode": "AYDINLIK"
+    "lightMode": "AYDINLIK",
+    "toContact": "İletişim",
+    "toHome": "Ana Sayfa"
   },
   "hero": {
     "greeting": "Merhaba! 👋",
@@ -83,8 +85,8 @@
         "image": "/highlightedProjects/pizzaStore.png"
       }
     ],
-    "github":"Github'da gör",
-    "app":"Uygulamaya git"
+    "github": "Github'da gör",
+    "app": "Uygulamaya git"
   },
   "footer": {
     "message": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
@@ -97,6 +99,11 @@
     "namePlaceHolder": "Adınız",
     "emailPlaceHolder": "E-posta Adresiniz",
     "messafePlaceHolder": "Mesajınız",
-    "buttonText": "Mesaj Gönder"
+    "buttonText": "Mesaj Gönder",
+    "nameRequired": "Lütfen isminizi giriniz",
+    "emailRequired": "Lütfen e-posta adresinizi giriniz",
+    "messageRequired": "Lütfen mesajınızı yazınız.",
+    "emailError": "Geçerli bir e-posta adresi girmelisiniz.",
+    "messageError": "Mesajınız en az 10 karakter içermeli."
   }
 }

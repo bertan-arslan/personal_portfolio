@@ -1,7 +1,9 @@
 {
-  "navBar":{
-    "darkMode":"DARK MODE",
-    "lightMode": "LIGHT MODE"
+  "navBar": {
+    "darkMode": "DARK MODE",
+    "lightMode": "LIGHT MODE",
+    "toContact": "Contact",
+    "toHome": "Home"
   },
   "hero": {
     "greeting": "Hi! 👋",
@@ -12,7 +14,7 @@
       " backend developer.",
       " planner."
     ],
-    "cta":"I can craft solid and scalable frontend products. Let’s meet!",
+    "cta": "I can craft solid and scalable frontend products. Let’s meet!",
     "description": [
       { "text": "Currently ", "emphasis": false },
       { "text": "Freelancing", "emphasis": true },
@@ -55,7 +57,7 @@
     ]
   },
 
-  "projects" : {
+  "projects": {
     "highligthedProjectsTitle": "Projects",
     "highligthedProjects": [
       {
@@ -83,23 +85,25 @@
         "image": "/highlightedProjects/pizzaStore.png"
       }
     ],
-    "github":"View on Github",
-    "app":"Go to app"
-  }
-  ,
-
+    "github": "View on Github",
+    "app": "Go to app"
+  },
   "footer": {
     "message": "Let’s work together on your next product.",
     "contactMe": "Contact Me",
     "rights": "All rights reserved.",
     "build": "Built with React, Tailwind CSS & Love."
   },
-  "contact":{
-    "title":"Contact Me",
-    "namePlaceHolder":"Your Name",
-    "emailPlaceHolder":"Your Email",
-    "messafePlaceHolder":"Your Message",
-    "buttonText":"Send Message"
-
+  "contact": {
+    "title": "Contact Me",
+    "namePlaceHolder": "Your Name",
+    "emailPlaceHolder": "Your Email",
+    "messafePlaceHolder": "Your Message",
+    "buttonText": "Send Message",
+    "nameRequired": "Please enter your name.",
+    "emailRequired": "Please enter your email",
+    "messageRequired": "Please enter your message.",
+    "emailError": "Invalid email format.",
+    "messageError": "Message must be at least 10 characters."
   }
 }
