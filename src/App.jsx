@@ -9,15 +9,14 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import { DarkModeProvider } from "./context/DarkModeContext";
 import { LanguageProvider } from "./context/LanguageContext";
-import Decorations from "./components/Decorations";
+
 
 function App() {
   return (
     <LanguageProvider>
       <DarkModeProvider>
         <Router>
-          <div className="relative overflow-hidden">
-            <Decorations />
+          
             <Navbar />
             <Switch>
               <Route exact path="/">
@@ -31,7 +30,7 @@ function App() {
                 <Contact />
               </Route>
             </Switch>
-          </div>
+          
         </Router>
         <ToastContainer position="bottom-right" autoClose={3000} />
       </DarkModeProvider>

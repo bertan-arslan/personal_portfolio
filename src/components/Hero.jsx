@@ -96,7 +96,7 @@ export default function Hero() {
 
         <img
           src="/hero.png"
-          className="my-10 w-full object-cover h-[340px] rounded-[21px] md:min-w-[340px] md:w-[340px]"
+          className="my-10 w-full object-cover h-[340px] rounded-[21px] md:min-w-[340px] md:w-[340px] transition-y-3"
           style={{
             boxShadow: "-20px -20px 0px #669BBC",
           }}
