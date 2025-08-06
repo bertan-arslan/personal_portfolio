@@ -52,7 +52,7 @@
 
     "aboutMeTitle": "About me",
     "aboutMeParagraphs": [
-      "I'm constantly working on improving myself with the goal of becoming a better Full Stack Developer. I graduated from Amasya University with a degree in Urban Design and Landscape Architecture in 2023. After my graduation, I received 960 hours of FrontEnd and BackEnd training through 78 different projects at Workintech.",
+      "I'm constantly working on improving myself with the goal of becoming a better Full Stack Developer. I graduated from Izmir Institute of Technology with a degree in Master of City Planning in 2023. After my graduation, I received 960 hours of FrontEnd and BackEnd training through 78 different projects at Workintech.",
       "After transitioning into software development, I’ve focused on creating responsive UIs, managing complex data flows, and delivering smooth user experiences. I’m always eager to learn, collaborate, and turn ideas into functional products."
     ]
   },
@@ -105,7 +105,7 @@
     "messageRequired": "Please enter your message.",
     "emailError": "Invalid email format.",
     "messageError": "Message must be at least 10 characters.",
-    "toastSuccess":"Your message has been sent successfully. 🎉",
-    "toastCrash":"An error occurred, please try again."
+    "toastSuccess": "Your message has been sent successfully. 🎉",
+    "toastCrash": "An error occurred, please try again."
   }
 }
