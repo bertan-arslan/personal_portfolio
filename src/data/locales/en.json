@@ -9,10 +9,10 @@
     "greeting": "Hi! 👋",
     "intro": "I’m Bertan. I’m a",
     "typewriterWords": [
-      " full-stack developer.",
-      " frontend developer.",
-      " backend developer.",
-      " planner."
+      " full-stack devel",
+      " frontend devel",
+      " backend devel",
+      " planner"
     ],
     "cta": "I can craft solid and scalable frontend products. Let’s meet!",
     "description": [
@@ -72,7 +72,7 @@
         ],
         "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
         "githubLink": "https://github.com/bertan-arslan/e-commerce",
-        "projectUrl": "https://bandagestore-ten.vercel.app/",
+        "projectUrl": "https://bandage-iota.vercel.app/",
         "image": "/highlightedProjects/ecommerce.png"
       },
       {

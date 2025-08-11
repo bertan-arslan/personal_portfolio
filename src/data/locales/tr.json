@@ -9,12 +9,12 @@
     "greeting": "Merhaba! 👋",
     "intro": "Ben Bertan. Ben",
     "typewriterWords": [
-      " full-stack geliştiricisiyim.",
-      " frontend geliştiricisiyim.",
-      " backend geliştiricisiyim.",
-      " plancıyım."
+      " full-stack gelişti",
+      " frontend gelişti",
+      " backend gelişti",
+      " plancıyım"
     ],
-    "cta": "Kullanışlı ve geliştirilebilir arayüzler tasarlıyorum. Tanışmaya ne dersin?",
+    "cta": "Kullanışlı ve geliştirilebilir arayüzler tasarlıyorum. Tanışmaya ne dersiniz?",
     "description": [
       { "text": "Şu anda ", "emphasis": false },
       { "text": "Freelance olarak çalışıyorum", "emphasis": true },
@@ -52,7 +52,7 @@
 
     "aboutMeTitle": "Hakkımda",
     "aboutMeParagraphs": [
-      "Alanında iyi bir Full Stack Developer olma hedefiyle kendimi sürekli geliştiriyorum. 2020 yılında İzmir Teknoloji Enstitüsü'nden Şehir Planlama Yüksek Lisans derecesiyle mezun oldum. Mezun olduktan sonra Workintech'te 78 farklı projede 960 saatlik FrontEnd ve BackEnd eğitimi aldım.",
+      "Alanında iyi bir Full Stack Developer olma hedefiyle kendimi sürekli geliştiriyorum. 2023 yılında İzmir Teknoloji Enstitüsü'nden Şehir Planlama Yüksek Lisans derecesiyle mezun oldum. Mezun olduktan sonra Workintech'te 78 farklı projede 960 saatlik FrontEnd ve BackEnd eğitimi aldım.",
       "Yazılım geliştirme alanına geçtikten sonra, duyarlı arayüzler oluşturma, karmaşık veri akışlarını yönetme ve sorunsuz kullanıcı deneyimleri sunmaya odaklandım. Her zaman öğrenmeye, iş birliğine ve fikirleri işlevsel ürünlere dönüştürmeye istekliyim."
     ]
   },
@@ -72,7 +72,7 @@
         ],
         "bgColor": "bg-[#fde4cf] dark:bg-[#3a1f15]",
         "githubLink": "https://github.com/bertan-arslan/e-commerce",
-        "projectUrl": "https://bandagestore-ten.vercel.app/",
+        "projectUrl": "https://bandage-iota.vercel.app/",
         "image": "/highlightedProjects/ecommerce.png"
       },
       {
