@@ -19,7 +19,7 @@ export default function Profile() {
           </h2>
           <div className="space-y-3">
             {basicInfoItems.map((item, i) => (
-              <div key={i} className="flex items-start gap-2">
+              <div key={i} className="flex flex-col md:flex-row items-start gap-2">
                 <span className="w-40 flex-shrink-0 font-semibold text-lg text-[#669BBC] dark:text-[#8ECAE6]">
                   {item.label}
                 </span>
